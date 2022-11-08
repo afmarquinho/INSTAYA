@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
+    box-sizing: border-box;
+  }
+h1{font-size: 4em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+h4{font-size: 1.5em;}
+span{
+    font-size: 1.em;
+    font-weight: bold;
+}
+
+.button{
+    font-size: 1em;
+    color:white;
+    border-radius: 20px;
+    background-color: rgb(65,75,178);
+    border:2px solid rgba(80, 80, 80, 0.5);
+    padding: 5px 25px;
+    margin: 5px;
+}
+.button:hover{
+    cursor:pointer;
+    background-color: rgb(254,244,69);
+    color: black;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+ }
+.container1{
+    max-width: 1200px;
+    margin: auto; /*Centrar a todos los margenes*/
+}
+header .container1, .container2, .login, .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button_{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    padding:2px 40px;
+}
+.button_:hover{
+    font-weight: bold;
+    color: rgb(65, 75, 178);
+}
+.img1{
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../images/entrega-paquete.jpg);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.campo{
+    border-radius: 20px;
+    background-color: rgba(65,75,178,0.09);
+    border:2px solid rgba(80, 80, 80, 0.5);
+    padding: 5px 50px;
+    text-align: center;
+    font-size: 1.1em;
+    margin:3px;
+}
+#conocenos, #noticias, #ayuda{
+    background-color:rgb(254,244,69);
+    text-align: center;
+}
+.container_ecologicas, .container_logisticas, .container_innovadoras, .container_sociales {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 8px;
+    padding: 10px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 10px;
+}
+.container_ecologicas:hover, .container_logisticas:hover, .container_innovadoras:hover, .container_sociales:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.img2, .img3, .img4, .img5{
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.img2{
+    background-image:url(../images/reforestacion.jpeg);
+}
+.img3{
+    background-image:url(../images/logistica.jpg);
+}
+.img4{
+    background-image:url(../images/innovacion_.png);
+}
+.img5{
+    background-image:url(../images/social.jpg);
+}
+.container3_1{
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+    padding: 10px;
+}
+.container3_1_1{
+    padding: 10PX;
+    margin-top: 10px;
+    margin-bottom:10px;
+    /*border-top: 2px solid rgb(254,244,69);
+    border-bottom: 2px solid rgb(254,244,69);*/
+}
+.ubicanos{
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-top: 2px solid rgb(254,244,69);
+    border-bottom: 2px solid rgb(254,244,69);
+}
+.form_pqr{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.pqr_field{
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    text-align: center;
+}
